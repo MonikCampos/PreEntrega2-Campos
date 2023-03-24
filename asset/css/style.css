@@ -12,41 +12,40 @@
     src: url("../fonts/EduNSWACTFoundation-VariableFont_wght.ttf");
 }
 
-header{
-    background-image: url("../img/portada.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: none;
-    width: 100%;
-    height: 400px;
-    margin-bottom: 0;
-}
-
 @media (min-width: 1140px) {
     .logo {
         width: 20%;
         height: 20%;    
     }
 }
-.portada{
+
+.jumbotron{
+    background-image: url("../img/portada.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    text-shadow: 0 0 5px black;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0;
+    border-radius: 0;
     padding: 20px 0 0 20px;
-}
-.iconHome img:hover{
-    transform: scale(1.05);
-    transition: all 0.9s;
 }
 
 h1{
     font-family: "Cookie";
     font-size: 60px;
+    margin-top: 30px;
+    text-align: center;
 }
 h2{
     font-family: "Edu";
     font-size: 30px;
 }
-.titulo{
-    margin-top: 30px;
-    text-align: center;
+h3{
+    font-family: "Edu";
+    font-size: 20px;
+    color: green;
 }
 
 p{
@@ -66,15 +65,30 @@ nav a{
     text-transform: uppercase;
 }
 nav a:hover{
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition: all 0.9s;
     
 }
-.imgBanner{
+
+.banner{
+    text-align:center;
+    padding: 60px 20px;
+}
+.imgBanner, .imgBannerT{
     background-position: top;
     background-size: cover;
     background-repeat: none;
-    height: 400px;
+    height: 410px;
+}
+
+@media (max-width: 992px) {
+    .imgBannerT {
+        height: 600px;    
+    }
+    .banner{
+        text-align:center;
+        padding: 10px;
+    }
 }
 .imgBanner1{
     background-image: linear-gradient(rgba(6, 21, 6, 0.5),rgba(255, 255, 255, 0.5)),url("../img/cocinera1.jpg");
@@ -85,24 +99,32 @@ nav a:hover{
 .imgBanner3{
     background-image: linear-gradient(rgba(6, 21, 6, 0.5),rgba(255, 255, 255, 0.5)),url("../img/principal.jpg");
 }
-.banner{
-    text-align:center;
-    padding: 60px 20px;
+
+.nCards{
+    border-color: white;
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 5px;
 }
 
 .menu{
     margin: 20px 0 10px 0;
 }
-.carrusel {
+.btnMenu{
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.carousel-item{
     text-align: center;
 
 }
-
 
 .contacto {
     text-align: center;
 
 }
+
 .contacto i{
     font-size: 35px;
     color: green;
@@ -127,13 +149,11 @@ footer{
     height: 150px;
     padding-top: 20px;
 }
-
 footer i{
     font-size: 40px;
     color: green;
     letter-spacing: 30px;
 }
-
 footer i:hover{
     color: white;
     transform: scale(1.05);
