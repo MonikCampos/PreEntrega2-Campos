@@ -14,7 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    
+
     <link rel="stylesheet" href="../asset/css/style.css">
     <title>Santos Manjares</title>
 </head>
@@ -35,8 +35,8 @@
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
         <script>
-            $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
             });
         </script>
         <a class="navbar-brand" href="../index.html" data-toggle="tooltip" data-placement="bottom" title="Home">
@@ -52,35 +52,38 @@
     </div>
     <!--fin container-fluid menú-->
 
-    <div class="container-fluid imgForm imgBanner2">
+    <div class="container-fluid imgForm imgBanner2 formulario">
         <div class="row">
-        <div class="col-12 text-light formulario">
-            <!--inicio form-->
-            <form>
-                <div>
-                    <label for="email">Correo electrónico:</label>
-                    <input placeholder="Ingresa tu correo electrónico" size=50 type="email" id="email" name="email"
-                        required>
-                </div><br>
-                <div><label for="email">¿De dónde eres?:</label>
-                    <select type="email" id="provincia" name="provincia">
-                        <option value="bsas">Buenos Aires</option>
-                        <option value="cba">Córdoba</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </div><br>
-                <div>
-                    <label for="message">Mensaje:</label>
-                    <textarea cols="60" rows="1" placeholder="Detalla la cantidad de comensales, el día y la hora de la reserva" id="message" name="message" required></textarea>
-                </div>
-                <input class="btn btn-outline-light" type="submit" value="Enviar">
-                <input class="btn btn-outline-light" type="reset" value="Limpiar campos">
-            </form>
-            <!--fin form-->
-        </div>
+            <div class="col-12 text-light">
+                <!--inicio form-->
+                <form>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input placeholder="Ingresa tu correo electrónico" size=50 type="email" id="email" name="email"
+                            required>
+                    </div><br>
+                    <div><label for="email">¿De dónde eres?:</label>
+                        <select type="email" id="provincia" name="provincia">
+                            <option value="bsas">Buenos Aires</option>
+                            <option value="cba">Córdoba</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div><br>
+                    <div>
+                        <label for="message">Mensaje:</label>
+                        <textarea cols="60" rows="1"
+                            placeholder="Detalla la cantidad de comensales, el día y la hora de la reserva" id="message"
+                            name="message" required></textarea>
+                    </div>
+                    <hr>
+                    <input class="btn btn-outline-light" type="submit" value="Enviar">
+                    <input class="btn btn-outline-light" type="reset" value="Limpiar campos">
+                </form>
+                <!--fin form-->
+            </div>
         </div>
     </div>
-            
+
 </main>
 
 <!--inicio footer-->
@@ -101,7 +104,7 @@
             </a>
         </div>
         <div class="col-12">
-            <h5>Copyright © 2023 Santos Manjares</h5>
+            <h5>Copyright ©2023 Santos Manjares</h5>
         </div>
         <div class="container">
             <a href="#goTop" class='imgGoTop'>
