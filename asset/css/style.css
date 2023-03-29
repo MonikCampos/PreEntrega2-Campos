@@ -12,13 +12,6 @@
     src: url("../fonts/EduNSWACTFoundation-VariableFont_wght.ttf");
 }
 
-@media (min-width: 1140px) {
-    .logo {
-        width: 20%;
-        height: 20%;    
-    }
-}
-
 .jumbotron{
     background-image: url("../img/portada.jpg");
     background-position: center;
@@ -47,11 +40,11 @@ h3{
     font-size: 20px;
     color: green;
 }
-
 p{
     font-family: "Edu";
     font-size: 20px;
 }
+
 button{
     font-family: "Edu";
     text-transform: uppercase;
@@ -61,13 +54,17 @@ button:hover{
     transform: scale(1.05);
     transition: all 0.9s;
 }
+
 nav a{
     text-transform: uppercase;
 }
 nav a:hover{
     transform: scale(1.02);
     transition: all 0.9s;
-    
+}
+nav a img:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
 }
 
 .banner{
@@ -90,7 +87,7 @@ nav a:hover{
 }
 @media (max-width: 992px) {
     .imgBannerT {
-        height: 600px;    
+        height: 700px;    
     }
     .banner{
         text-align:center;
@@ -98,13 +95,13 @@ nav a:hover{
     }
 }
 .imgBanner1{
-    background-image: linear-gradient(rgba(6, 21, 6, 0.5),rgba(255, 255, 255, 0.5)),url("../img/cocinera1.jpg");
+    background-image: linear-gradient(rgba(6, 21, 6, 0.7),rgba(255, 255, 255, 0.3)),url("../img/cocinera1.jpg");
 }
 .imgBanner2{
-    background-image: linear-gradient(rgba(6, 21, 6, 0.5),rgba(255, 255, 255, 0.5)),url("../img/eventos.jpg");
+    background-image: linear-gradient(rgba(6, 21, 6, 0.7),rgba(255, 255, 255, 0.3)),url("../img/eventos.jpg");
 }
 .imgBanner3{
-    background-image: linear-gradient(rgba(6, 21, 6, 0.5),rgba(255, 255, 255, 0.5)),url("../img/principal.jpg");
+    background-image: linear-gradient(rgba(6, 21, 6, 0.7),rgba(255, 255, 255, 0.3)),url("../img/principal.jpg");
 }
 
 .nCards{
@@ -150,7 +147,6 @@ nav a:hover{
     text-align: center;
 
 }
-
 .contacto i{
     font-size: 35px;
     color: green;
@@ -242,9 +238,16 @@ footer i:hover{
     color:green;
     position: fixed;
     bottom: 10px;
-    right: 10px;
+    right: 15px;
     width: 30px;
     height: 30px;    
+}
+
+@media (min-width: 1140px) {
+    .logo {
+        width: 20%;
+        height: 20%;    
+    }
 }
 
 @media only screen and (min-width:480px){
