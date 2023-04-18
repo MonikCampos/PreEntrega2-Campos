@@ -1,5 +1,5 @@
 # Desarrollo-Web-CODERHOUSE
-<h1 align="center">Hi 👋, I'm Mónica Campos</h1>
+<h2 align="center">Hi 👋, I'm Mónica Campos</h2>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
 - 🔭 I’m currently working on [Restaurante Santos Manjares] (https://monikcampos.github.io/PreEntrega2-Campos/index.html)
